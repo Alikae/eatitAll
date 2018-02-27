@@ -15,10 +15,24 @@
  */
 .fond {
     margin: auto;
-    width: 50%;
+    width: 100%;
+    height: 100%;
     border: 3px solid green;
     padding: 10px;
 }
 h1 {
     text-align: center;
+}
+.general_container {
+    margin: auto;
+    width: 70%;
+    border: 3px solid blue;
+    padding: 10px
+}
+.boutons_onglet {
+    display: flex;
+    justify-content: space-around;
+}
+.hidden {
+    display: none;
 }

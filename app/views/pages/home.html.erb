@@ -1,9 +1,35 @@
 <div class="fond">
+
   <h1>BIENVENUE CHEZ RESTAUPIQUEUR</h1>
+  <div class="general_container">
 
+    <div class="boutons_onglet">
 
+      <button onclick="document.getElementById(1).className = 'onglet'; document.getElementById(2).className = 'hidden'; document.getElementById(3).className = 'hidden';">Prez</button>
+      <button onclick="document.getElementById(1).className = 'hidden'; document.getElementById(2).className = 'onglet'; document.getElementById(3).className = 'hidden';">menu</button>
+      <button onclick="document.getElementById(1).className = 'hidden'; document.getElementById(2).className = 'hidden'; document.getElementById(3).className = 'onglet';">Ongle</button>
 
+    </div>
 
+      <div class="onglet" id=1>
 
+        La c'est la Présentation!
+
+      </div>
+      <div class="hidden" id=2>
+
+        La c'est le menu!
+
+      </div>
+      <div class="hidden" id=3>
+
+        La c'est mon ongle!
+
+      </div>
+
+  </div>
+  <div class="carrousel">
+
+  </div>
 </div>
 
