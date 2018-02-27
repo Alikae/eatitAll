@@ -21,6 +21,7 @@ function plusDivs(n) {
 }
 
 function showDivs(n) {
+  
     var i;
     var x = document.getElementsByClassName("slide");
     if (n > x.length) {slideIndex = 1}
