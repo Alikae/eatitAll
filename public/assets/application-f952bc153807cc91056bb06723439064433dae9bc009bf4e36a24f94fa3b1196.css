@@ -10,9 +10,10 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+
 .fond {
     margin: auto;
     width: 97%;
@@ -53,7 +54,7 @@ button {
     border-radius: 20px;
 }
 .all {
-    background-image: url(<%= asset_path('img.jpg') %>);
+    background-image: url(/im.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid purple;
@@ -62,19 +63,4 @@ button {
     position: absolute;
     display: flex;
     flex-direction: column;
-}
-.carousel {
-    margin: auto;
-    width: 97%;
-    height: 50%;
-    position: absolute;
-    bottom: 0;
-    min-height: 300px;
-    border: 3px solid green;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-.slide {
-    height: 100%;
 }
